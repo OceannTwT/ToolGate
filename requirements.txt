@@ -1,0 +1,24 @@
+# Hoare ToolBench 依赖
+
+# 基础依赖
+dataclasses>=0.8; 
+
+# 检索相关
+rank-bm25>=0.2.2
+cohere>=4.0.0
+
+# LLM 客户端
+openai>=0.27.0
+tenacity>=8.0.0
+
+# Embedding 模型（用于向量检索）
+transformers>=4.30.0
+torch>=2.0.0
+numpy>=1.24.0
+
+# 工具执行
+requests>=2.28.0
+
+# 环境变量管理（可选，推荐使用）
+python-dotenv>=1.0.0
+

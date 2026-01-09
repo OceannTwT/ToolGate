@@ -1,0 +1,22 @@
+{
+  "基本流程测试": {
+    "status": "PASS",
+    "error": null
+  },
+  "工具调用测试": {
+    "status": "PASS",
+    "error": null
+  },
+  "前置条件检查测试": {
+    "status": "PASS",
+    "error": null
+  },
+  "输出格式测试": {
+    "status": "PASS",
+    "error": null
+  },
+  "状态演化测试": {
+    "status": "PASS",
+    "error": null
+  }
+}

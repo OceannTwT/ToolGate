@@ -1,0 +1,36 @@
+{
+  "answer": "在上海，《疯狂动物城2》的放映场次如下：\n\n1. 在上海影城A，放映时间是14:00\n2. 在上海影城B，放映时间是18:00\n\n你可以选择其中一个场次去观看。",
+  "final_state": {
+    "city": "上海",
+    "movie": "疯狂动物城2",
+    "showtimes": [
+      {
+        "time": "14:00",
+        "cinema": "上海影城A",
+        "movie": "疯狂动物城2"
+      },
+      {
+        "time": "18:00",
+        "cinema": "上海影城B",
+        "movie": "疯狂动物城2"
+      }
+    ]
+  },
+  "trace_summary": [
+    {
+      "step": 0,
+      "action_type": "start_call_tool",
+      "tool_called": "SearchMovieShowtimes",
+      "verification_success": true,
+      "state_updated": true
+    },
+    {
+      "step": 1,
+      "action_type": "answer",
+      "tool_called": null,
+      "verification_success": null,
+      "state_updated": false
+    }
+  ],
+  "conversation_turns": 4
+}
